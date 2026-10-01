@@ -1,0 +1,51 @@
+.organism-card {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem;
+}
+
+h1{
+    font-family: 'luma sans', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.c-block{
+    font-family: 'Inter', sans-serif;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.c-pill {
+    padding: 0.65rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: large;
+
+    &.c-pill--primary {
+        background-color: #B7245C;
+        color: #FCEEF3;
+    }
+
+    &.c-pill--secondary {
+        background-color: #5448C8;
+        color: #F0EFFA;
+    }
+
+    &.c-pill--disabled {
+        background-color: #e9ecef;
+        color: #6c757d;
+        border: solid;
+        border-width: 2.3px;
+        cursor: not-allowed;
+    }
+
+    &.c-pill--error {
+        background-color: #dc3545;
+        color: white;
+    }
+}
